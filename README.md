@@ -25,15 +25,13 @@
     </thead>
     <tbody>
         <tr>
-            <td><img src="image-initial-state.png" alt="Initial State"></td>
-            <td><img src="image-user-wins.png" alt="User Wins"></td>
-            <td><img src="image-computer-wins.png" alt="Computer Wins"></td>
-            <td><img src="image-draw-game.png" alt="Draw Game"></td>
+            <td><img src="imgs/start.png" alt="Initial State"></td>
+            <td><img src="imgs/win.png" alt="User Wins"></td>
+            <td><img src="imgs/lose.png" alt="Computer Wins"></td>
+            <td><img src="imgs/draw.png" alt="Draw Game"></td>
         </tr>
     </tbody>
 </table>
-
-<p><i>(Replace <code>image-initial-state.png</code>, <code>image-user-wins.png</code>, <code>image-computer-wins.png</code>, and <code>image-draw-game.png</code> with actual paths to your screenshots.)</i></p>
 
 <h2 id="how-to-play">How to Play</h2>
 
