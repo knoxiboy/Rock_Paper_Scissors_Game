@@ -24,7 +24,8 @@ const showWinner = (userWin, userChoice, compChoice) => {
     userScorePara.innerText = userScore;
     msg.innerText = `You win! Your ${userChoice} beats ${compChoice}`;
     msg.style.backgroundColor = "green";
-  } else {
+  } 
+  else {
     compScore++;
     compScorePara.innerText = compScore;
     msg.innerText = `You lost. ${compChoice} beats your ${userChoice}`;
@@ -44,10 +45,12 @@ const playGame = (userChoice) => {
     if (userChoice === "rock") {
       //scissors, paper
       userWin = compChoice === "paper" ? false : true;
-    } else if (userChoice === "paper") {
+    } 
+    else if (userChoice === "paper") {
       //rock, scissors
       userWin = compChoice === "scissors" ? false : true;
-    } else {
+    } 
+    else {
       //rock, paper
       userWin = compChoice === "rock" ? false : true;
     }

@@ -60,6 +60,29 @@ To run this project locally:
 
 3. **Open `index.html`:** Simply open the `index.html` file in your preferred web browser
 
+## Program Details
+
+The Rock Paper Scissors game consists of three main files:
+
+- **index.html**: Contains the structure of the game with:
+  - A title and instruction text
+  - Three choice buttons (Rock, Paper, Scissors) with corresponding images
+  - A scoreboard showing user and computer scores
+  - A message container for game results
+
+- **style.css**: Provides styling for the game with:
+  - A centered layout with appropriate spacing
+  - Circular choice buttons with hover effects
+  - Scoreboard styling for clear visibility
+  - Message container with background color changes for different outcomes
+
+- **game.js**: Implements the core game logic:
+  - Generates random computer choices
+  - Implements game rules (Rock beats Scissors, Scissors beats Paper, Paper beats Rock)
+  - Tracks and updates scores
+  - Determines win/loss/draw outcomes
+  - Updates the UI based on game results
+
 ## Game Rules
 
 - Rock beats Scissors
